@@ -1,0 +1,37 @@
+/*GLOBAL*/
+* {
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif
+}
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+/*CONTAINER*/
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 95%;
+}
+
+.widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+}
+
+img {
+    max-width: 10rem;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+}
