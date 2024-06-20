@@ -6,15 +6,15 @@
 }
 
 :root {
-    --clr--accent: hsl(75, 94%, 57%);
-    --clr--background-700: hsl(0, 0%, 8%);
+    --clr-accent: hsl(75, 94%, 57%);
+    --clr-background-700: hsl(0, 0%, 8%);
     --clr-background-600: hsl(0, 0%, 12%);
     --clr-background-500: hsl(0, 0%, 20%);
     --clr-neutral-100: hsl(0, 0%, 100%);
 }
 
 body {
-    background-color: var(--clr--background-700);
+    background-color: var(--clr-background-700);
     color: var(--clr-neutral-100);
 }
 
@@ -32,6 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 95%;
     margin: auto;
     padding: 1.5rem;
     border-radius: 1rem;
@@ -50,15 +51,12 @@ img {
 
 .location {
     margin-top: 0.5rem;
-    color: var( --clr--accent);
+    color: var( --clr-accent);
 }
 
 .catchphrase {
     font-size: 0.875rem;
     
-}
-.name, .location, li {
-    font-weight: 600;
 }
 
 ul {
@@ -76,9 +74,9 @@ li {
     text-align: center;
 
     &:hover {
-        background-color: var(--clr--accent);
+        background-color: var(--clr-accent);
         & a {
-            color: var(--clr--background-700);
+            color: var(--clr-background-700);
         }
     }
 }
