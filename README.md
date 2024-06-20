@@ -1,4 +1,4 @@
-# Social Link Card | [Visit Here](https://jenieg.github.io/blog-preview-card-main/)
+# Social Link Card | [Visit Here]()
 
 ![Jenie | Software Engineer](./assets/images/Untitled.png)
 
